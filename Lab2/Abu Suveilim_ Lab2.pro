@@ -12,7 +12,7 @@ class facts - factsDb
     reader : (integer Id_чел, string Имя, integer Возраст, unit Unit, string Дом).
     sub : (integer Id_чел, integer Id).
     */
-    аптека : (id IdАптеки, name НазваниеАптеки, string Адрес, integer Телефон).
+    аптека : (id IdАптеки, name НазваниеАптеки, string Адрес, string Телефон).
     лекарство : (id IdЛекарства, name НазваниеЛекарства).
     продает : (id IdАптеки, id IdЛекарства, integer Цена, integer Количество).
 
